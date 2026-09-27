@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-09-27T06:36:27.988Z",
+  "readOnly": true,
+  "results": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xa051b89066e7e47e3117c75aabc348d18da386e3",
+          "codeBytes": 1723,
+          "state": {
+            "name": "Badges",
+            "symbol": "BDGE",
+            "decimals": "18",
+            "totalSupply": "1000000000000000000000000000"
+          }
+        },
+        {
+          "name": "SoulboundBadges",
+          "address": "0x3f9dab890e9a6a37fbef79865412084884a371a5",
+          "codeBytes": 9231,
+          "state": {
+            "token": "0xa051B89066e7e47e3117C75aABc348d18da386e3",
+            "CREATION_FEE": "100000000000000000000",
+            "typeCount": "0",
+            "totalSupply": "0"
+          }
+        }
+      ],
+      "result": "pass"
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xa051b89066e7e47e3117c75aabc348d18da386e3",
+          "codeBytes": 1723,
+          "state": {
+            "name": "Badges",
+            "symbol": "BDGE",
+            "decimals": "18",
+            "totalSupply": "1000000000000000000000000000"
+          }
+        },
+        {
+          "name": "SoulboundBadges",
+          "address": "0x3f9dab890e9a6a37fbef79865412084884a371a5",
+          "codeBytes": 9231,
+          "state": {
+            "token": "0xa051B89066e7e47e3117C75aABc348d18da386e3",
+            "CREATION_FEE": "100000000000000000000",
+            "typeCount": "0",
+            "totalSupply": "0"
+          }
+        }
+      ],
+      "result": "pass"
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0xa051b89066e7e47e3117c75aabc348d18da386e3",
+          "codeBytes": 1723,
+          "state": {
+            "name": "Badges",
+            "symbol": "BDGE",
+            "decimals": "18",
+            "totalSupply": "1000000000000000000000000000"
+          }
+        },
+        {
+          "name": "SoulboundBadges",
+          "address": "0x3f9dab890e9a6a37fbef79865412084884a371a5",
+          "codeBytes": 9231,
+          "state": {
+            "token": "0xa051B89066e7e47e3117C75aABc348d18da386e3",
+            "CREATION_FEE": "100000000000000000000",
+            "typeCount": "0",
+            "totalSupply": "0"
+          }
+        }
+      ],
+      "result": "pass"
+    }
+  ]
+}

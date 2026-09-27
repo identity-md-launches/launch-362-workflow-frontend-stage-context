@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-288-soulboundbadges",
+  "version": 1,
+  "launchId": "521056e2-7f31-40b2-bbb4-486fb89c2ad9",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test toy: badges are not credentials. LaunchToken has no constructor arguments. SoulboundBadges is fully configured with the launch token address, has no owner or admin, and requires no initialization calls or token funding at deployment. Creating a badge type requires an ERC-20 allowance for 100 BDGE, transferred directly from the creator to the dead address. Badges are nontransferable; only their holders may burn them. The pool pairs BDGE with native ETH and has no hook. The factory supplies liquidity and the MerkleDistributor. The initialPrice is decimal sqrtPriceX96; the deployer derives the effective opening price from the pinned policy when it specifies initialMarketCapWei. Policy, authorization and signed artifact linkage are supplied by services.",
+    "token": {
+      "name": "Badges",
+      "symbol": "BDGE",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "SoulboundBadges",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x2e361f85261b2365af5dee6d452be96a592895fd66dc49c5a680905a616e8279",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xa051b89066e7e47e3117c75aabc348d18da386e3",
+      "blockNumber": 11791404,
+      "creationCodeHash": "15be098198146c434771fb321134b2a6d80ada7c42dee6603704865a7e88502a"
+    },
+    {
+      "name": "SoulboundBadges",
+      "txHash": "0x2e361f85261b2365af5dee6d452be96a592895fd66dc49c5a680905a616e8279",
+      "abiHash": "cddbce0f15908930a4ed09fe3b60d7d68960c56b268f0f0a1850366463897ed0",
+      "address": "0x3f9dab890e9a6a37fbef79865412084884a371a5",
+      "blockNumber": 11791404,
+      "creationCodeHash": "80bc1da495d15bbed81457fdca66d58e011564af3ef83b33750a2a8653e73f4a"
+    }
+  ],
+  "sourceCommit": "9f69f30234cc146f753eda9e3e96b649ae02b413",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "c362672f98c7bd75812d2db46f6d64d14ae32ab38e92dc237fd51eea30f0672f"
+}

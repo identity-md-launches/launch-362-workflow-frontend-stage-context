@@ -1,0 +1,51 @@
+{
+  "checkedAt": "2026-09-27T06:51:48.785Z",
+  "viewports": [
+    1440,
+    900,
+    768,
+    390,
+    320
+  ],
+  "axeViolations": 0,
+  "overflow": false,
+  "textEnlargement": "200% root font size at 390px, no overflow; not native browser zoom",
+  "contrast": [
+    {
+      "selector": "body",
+      "backgroundSelector": ".panel",
+      "foreground": "rgb(34, 43, 37)",
+      "background": "rgb(255, 253, 248)",
+      "ratio": 14.342735414098847
+    },
+    {
+      "selector": ".panel>p",
+      "backgroundSelector": ".panel",
+      "foreground": "rgb(96, 100, 91)",
+      "background": "rgb(255, 253, 248)",
+      "ratio": 5.9509720833877875
+    },
+    {
+      "selector": ".swap-panel>p",
+      "backgroundSelector": ".swap-panel",
+      "foreground": "rgb(96, 100, 91)",
+      "background": "rgb(232, 237, 223)",
+      "ratio": 5.073145061272267
+    },
+    {
+      "selector": ".connect",
+      "backgroundSelector": ".connect",
+      "foreground": "rgb(255, 253, 248)",
+      "background": "rgb(34, 43, 37)",
+      "ratio": 14.342735414098847
+    },
+    {
+      "selector": ".danger",
+      "backgroundSelector": ".danger",
+      "foreground": "rgb(150, 63, 44)",
+      "background": "rgb(255, 253, 248)",
+      "ratio": 6.78592709142853
+    }
+  ],
+  "screenshots": "Connected wallet/RPC fixtures; not live account balances"
+}

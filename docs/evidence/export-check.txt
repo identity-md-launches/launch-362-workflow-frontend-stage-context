@@ -1,0 +1,6 @@
+
+> soulbound-badges-web@1.0.0 check:export
+> node scripts/check-export.mjs
+
+Verified 2 implementation ABIs at 9f69f30234cc146f753eda9e3e96b649ae02b413
+PASS: exact handoff, network, pool, ABI binding, 6 assets, 526580 bytes

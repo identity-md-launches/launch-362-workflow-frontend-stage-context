@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-27T06:44:21.720Z",
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "results": [
+    {
+      "direction": "ETH to BDGE",
+      "result": [
+        "49627085152468411915572",
+        "87366"
+      ],
+      "method": "eth_call",
+      "broadcast": false
+    },
+    {
+      "direction": "BDGE to ETH",
+      "error": "The contract function \"quoteExactInputSingle\" reverted with the following signature:\n0x6190b2b0",
+      "broadcast": false
+    }
+  ]
+}
